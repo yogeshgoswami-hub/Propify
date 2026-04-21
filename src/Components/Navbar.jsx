@@ -19,10 +19,10 @@ const Navbar = () => {
   return (
     <div className="absolute top-0 left-0 w-full z-10">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20  bg-transparent ">
-        <a href="" className="underline underline-offset-4 decoration-1 font-light text-white">
+        <a href="" className="underline text-blue-400 underline-offset-4 decoration-2 font-light">
           {/* <img src={logo} alt="" /> */}
-          <h1 className="text-3xl  text-white font-serif">
-            <span className="text-5xl text-gray-300">P</span>ropify
+          <h1 className="text-3xl  text-zinc-200 font-serif">
+            <span className="text-5xl text-blue-400">P</span>ropify
           </h1>
         </a>
         <ul className="hidden md:flex gap-7 text-white">

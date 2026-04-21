@@ -8,9 +8,9 @@ const Footer = () => {
     >
       <div className="container mx-auto flex flex-col  md:flex-row justify-between items-start">
         <div className="text-white w-full md:w-1/3 mb-8 md:mb-0 ">
-          <a href="#Header">
-            <h1 className="text-3xl  text-white font-serif">
-              <span className="text-5xl">P</span>ropify
+          <a href="#Header" className="underline underline-offset-5 decoration-2 text-blue-400">
+            <h1 className="text-3xl  text-zinc-200 font-serif">
+              <span className="text-5xl text-blue-400">P</span>ropify
             </h1>
           </a>
           <p className="text-gray-400 mt-4">
